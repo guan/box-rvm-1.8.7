@@ -10,7 +10,7 @@ keywords:
     - rvm
 script: |
     sudo apt-get update -y
-    sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev curl -y
+    sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev curl zip -y
     sudo apt-get remove ruby1.9.1
     curl -sSL https://get.rvm.io | bash -s stable
     echo "bundler -v~>1.5.1" > $HOME/.rvm/gemsets/global.gems
